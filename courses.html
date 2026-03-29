@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Wonderlearn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Wonderlearn</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="filters">
+            <h2>Filter Courses</h2>
+            <form>
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All</option>
+                    <option value="math">Mathematics</option>
+                    <option value="science">Science</option>
+                    <option value="literature">Literature</option>
+                    <option value="technology">Technology</option>
+                </select>
+                <label for="level">Level:</label>
+                <select id="level">
+                    <option value="all">All</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="advanced">Advanced</option>
+                </select>
+                <input type="submit" value="Apply Filters">
+            </form>
+        </section>
+        <section id="courses">
+            <h2>Available Courses</h2>
+            <div class="course">
+                <h3>Introduction to Mathematics</h3>
+                <p>Learn the basics of mathematics, including addition, subtraction, multiplication, and division.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Biology 101</h3>
+                <p>Explore the fascinating world of living organisms and their ecosystems.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Creative Writing</h3>
+                <p>Enhance your writing skills and unleash your creativity.</p>
+                <button>Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Computer Science Basics</h3>
+                <p>Get started with programming and learn about algorithms and data structures.</p>
+                <button>Enroll Now</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Wonderlearn. All rights reserved.</p>
+    </footer>
+</body>
+</html>
